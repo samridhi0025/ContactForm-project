@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  max-width: 500px;
+  margin: 3px auto;
+  margin-top: 8px;
+  max-width: 800px; 
+  flex-wrap: wrap; 
+  gap: 2px;
+  align-items: end;
+}
+.top_btn {
+  display: flex;
+  gap: 32px;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.contact_form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.form_controller {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+.form_controller input,
+.form_controller textarea {
+  background-color: white; /* light blue */
+  border: 1px solid black;
+  border-radius: 3px;
+  height: 30px;
+  padding: 5px;
+}
+
+.form_controller label {
+  position: absolute;
+  top: -12px; 
+  left: 10px;
+  font-size: 13px;
+  pointer-events: none;
+  background-color: white; 
+}
+
+.contact_image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 80px;
+}
+
+.contact_image img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
